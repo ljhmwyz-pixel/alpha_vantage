@@ -5,7 +5,8 @@ class AlertItem {
     required this.market,
     required this.ruleType,
     required this.threshold,
-    required this.isActive,
+    required this.isEnabled,
+    required this.isTriggered,
   });
 
   final int id;
@@ -13,7 +14,8 @@ class AlertItem {
   final String market;
   final String ruleType;
   final double threshold;
-  final bool isActive;
+  final bool isEnabled;
+  final bool isTriggered;
 
   factory AlertItem.fromJson(Map<String, dynamic> json) {
     return AlertItem(
@@ -22,7 +24,8 @@ class AlertItem {
       market: json['market'] as String,
       ruleType: json['rule_type'] as String,
       threshold: _asDouble(json['threshold']),
-      isActive: json['is_active'] as bool,
+      isEnabled: json['is_enabled'] as bool? ?? true,
+      isTriggered: json['is_triggered'] as bool? ?? false,
     );
   }
 }

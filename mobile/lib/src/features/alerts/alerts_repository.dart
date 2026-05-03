@@ -46,4 +46,13 @@ class AlertsRepository {
   Future<void> deleteAlert(int id) async {
     await _client.delete<void>('/alerts/$id');
   }
+
+  Future<void> toggleAlert(int id, bool enabled) async {
+    await _client.patch<void>(
+      '/alerts/$id',
+      data: <String, dynamic>{
+        'is_enabled': enabled,
+      },
+    );
+  }
 }

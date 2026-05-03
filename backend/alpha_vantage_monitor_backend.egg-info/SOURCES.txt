@@ -31,7 +31,9 @@ app/providers/__init__.py
 app/providers/alpha_vantage.py
 app/providers/base.py
 app/providers/factory.py
+app/providers/fallback.py
 app/providers/mock.py
+app/providers/yahoo_chart.py
 app/providers/yfinance_provider.py
 app/schemas/__init__.py
 app/schemas/alert.py
