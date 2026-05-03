@@ -1,0 +1,148 @@
+INFO:     Started server process [21956]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-05-03 14:05:22,874 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:05:23,396 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:05:23,881 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:05:26,403 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:05:26,404 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:05:26,595 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:05:26,597 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:05:26,640 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:05:26,641 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:14:04,510 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:14:04,967 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:14:05,401 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:14:07,793 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:14:07,794 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:14:07,801 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:14:07,804 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:14:08,106 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:14:08,109 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:17:26,177 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:17:26,606 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:17:27,041 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:17:29,554 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:17:29,566 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:17:29,755 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:17:29,756 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:17:29,805 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:17:29,806 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:25:03,351 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:25:03,738 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:25:04,128 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:25:06,503 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:25:06,514 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:25:06,520 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:25:06,521 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:25:06,567 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:25:06,568 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:25:17,336 WARNING [app.providers.fallback] Candle provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:25:19,978 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=6mo&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:25:19,988 WARNING [app.providers.fallback] Candle provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=6mo&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:26:18,367 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:26:18,747 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:26:19,129 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:26:19,511 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:26:21,884 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:26:21,888 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:26:21,947 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:26:21,948 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:26:21,949 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:26:21,951 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:26:22,173 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:26:22,182 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:26:31,220 WARNING [app.providers.fallback] Candle provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:26:33,577 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163?range=6mo&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:26:33,588 WARNING [app.providers.fallback] Candle provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163?range=6mo&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:28:40,324 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:28:40,718 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:28:41,108 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:28:41,493 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:28:43,868 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:28:43,870 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:28:43,898 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:28:43,899 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:28:44,158 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:28:44,159 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:28:44,199 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:28:44,201 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:30:07,714 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:30:08,127 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:30:08,524 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:30:08,929 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:30:09,332 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:30:11,703 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:30:11,714 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:30:11,727 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:30:11,728 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:30:11,729 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:30:11,730 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:30:11,821 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:30:11,823 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:30:11,981 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163.SZ?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:30:11,982 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163.SZ?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:30:29,724 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:30:32,187 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163.SS?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:30:32,198 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163.SS?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:29,262 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:29,681 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:30,080 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:30,478 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:30,876 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:31,266 WARNING [app.providers.fallback] Quote provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:33,630 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163.SS?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:33,640 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163.SS?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:33,650 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:33,652 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:33,701 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:33,704 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:33,761 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:33,763 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:33,898 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163.SZ?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:33,899 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163.SZ?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:33,927 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:33,928 WARNING [app.providers.fallback] Quote provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5d&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:51,531 WARNING [app.providers.fallback] Candle provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:41:54,210 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/002163.SZ?range=6mo&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:41:54,221 WARNING [app.providers.fallback] Candle provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/002163.SZ?range=6mo&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-03 14:41:59,301 WARNING [app.providers.fallback] Candle provider yfinance failed: Too Many Requests. Rate limited. Try after a while.
+2026-05-03 14:42:01,962 INFO [httpx] HTTP Request: GET https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=6mo&interval=1d "HTTP/1.1 429 Too Many Requests"
+2026-05-03 14:42:01,972 WARNING [app.providers.fallback] Candle provider yahoo_chart failed: Client error '429 Too Many Requests' for url 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=6mo&interval=1d'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
